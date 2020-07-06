@@ -1,0 +1,220 @@
+body {
+font-family: "Avenir Next";
+}
+
+
+.header{
+    background-color : red;
+    height : 50px;
+}
+
+.header p{
+    text-align: center;
+}
+
+
+/*containner*/
+.containner{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 0;
+}
+
+/*Kenapa Kami*/
+
+.main{
+    background-image: linear-gradient(150deg, white, #bdf7f1);
+    height : 500px;
+    text-align: center;
+    border: 2px solid #dee7ec;
+}
+
+.main h2{
+    padding-top: 10px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.nilai{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kelebihan {
+    /* float: left; */
+    flex: auto;
+    width: 25%;
+}
+  
+  .kelebihan-icon {
+    /* position: relative; */
+    padding: 0 auto;
+    
+}
+  
+  .kelebihan-icon p {
+    /* position: absolute; */
+    top: 30%;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0 auto;
+    
+}
+  
+  .text-contents-main {
+    width: 90%;
+    display: inline-block;
+    margin: 15px auto 0 auto;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    
+}
+
+/*Tentang Kami*/
+
+.ourteam{
+    background-size: cover;
+    background-image: url("blue water.jpg");
+    /* background-color : goldenrod; */
+    height : 650px;
+    text-align: center;
+    border: 2px solid #dee7ec;
+
+}
+
+.ourteam h2{
+    text-align: center;
+    padding-top: 10px;
+    color:black;
+    letter-spacing: 5px;
+}
+
+.team {
+    float: left;
+    width: 33%;
+}
+  
+  .team-icon {
+    /* position: relative; */
+    padding: 0 auto;
+    
+}
+  
+  .team-icon p {
+    /* position: absolute; */
+    top: 30%;
+    width: 100%;
+    color:black;
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0 auto;
+    
+}
+  
+  .text-contents-team {
+    width: 90%;
+    display: inline-block;
+    margin: 15px auto 0 auto;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    
+}
+
+/*Form*/
+
+.form{
+    background-color :white;
+    height : 600px;
+    text-align: center;
+    border: 2px solid #dee7ec;
+}
+
+.form h2{
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 5px;
+}
+
+.contact-form-hp{
+    display: none;
+}
+
+.contact{
+    display: flex;
+}
+
+.contact-containner{
+    width: 50%;
+}
+
+.contact-image{
+    float: left;
+    text-align: left;
+    /* border: 2px solid #dee7ec; */
+}
+
+.contact-form{
+    text-align: left;
+    /* border: 2px solid #dee7ec; */
+}
+
+.emailtext{
+    display: flex;
+}
+
+.textemail{
+    /* border: 2px solid #dee7ec; */
+    width: 50%;
+    height: auto;
+}  
+
+.emailname{
+    width: 80%;
+    height: 50px;
+}
+
+.Message{
+    text-align: left;
+}
+
+textarea{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 100px;
+}
+
+.send {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+    border-radius: 10px;
+    color: honeydew;
+  }
+
+.send:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+
+/****/
+
+
+.footer{
+    background-color : #ceccf3;
+    height : 50px;
+}
+
+.footer p{
+    text-align: center;
+}
